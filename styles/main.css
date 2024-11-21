@@ -1,0 +1,44 @@
+body{
+    background-color:#250902 ;
+}
+h3 {
+    text-align:center;
+    margin: auto;
+    padding 5px;
+    text-shadow: 1px 1px 2px #FF7F11;
+    color: #03CEA4;
+}
+.moodImage{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    text-align: center;
+    overflow: hidden;
+}
+.moodName{
+    text-align: center;
+}
+section{
+    width: 500px;
+    height: 475px;
+    padding-bottom: 40px;
+    background-color: #E40066;
+    border-radius: 50% 20% / 10% 40%;
+    text-shadow: 1px 1px 2px #FF7F11;
+    box-shadow: 5px 10px white ;
+}
+
+section:hover {
+    ;
+}
+.advice {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    width: 400px;
+    margin: auto;
+    color: #245995;
+    padding-top: 20px;
+}

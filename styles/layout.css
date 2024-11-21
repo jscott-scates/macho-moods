@@ -1,0 +1,18 @@
+
+h1 {
+    margin: auto;
+    text-align: center;
+    text-shadow: 1px 1px 2px #FF7F11;
+    color: #03CEA4;
+}
+.headerSubtext{ 
+    text-align: center;
+    padding-bottom: 20px;
+}
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20p;
+    margin: auto;
+}
